@@ -88,8 +88,6 @@
 				CD0B0FDD20E34252004D1F4B /* Model */,
 				CD0B0FE120E34ED6004D1F4B /* View */,
 				CD0B0FDE20E3425D004D1F4B /* Controller */,
-				CD0B0FD920E341F1004D1F4B /* MusicCollectionViewCell.swift */,
-				CD0B0FD120E33229004D1F4B /* LocatorTableViewCell.swift */,
 			);
 			path = "ui-tab-table-collection";
 			sourceTree = "<group>";
@@ -116,6 +114,8 @@
 		CD0B0FE120E34ED6004D1F4B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD0B0FD920E341F1004D1F4B /* MusicCollectionViewCell.swift */,
+				CD0B0FD120E33229004D1F4B /* LocatorTableViewCell.swift */,
 				CD0B0FC120E32BED004D1F4B /* Main.storyboard */,
 				CD0B0FC620E32BED004D1F4B /* LaunchScreen.storyboard */,
 			);

@@ -48,13 +48,14 @@ extension MusicCollectionViewController : UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         switch Device.size(){
         case .screen4Inch:
-            return CGSize(width: 140, height: 212)
-        case .screen4_7Inch:
-            return CGSize(width: 157, height: 230)
+            return CGSize(width: 140, height: 210)
+        case .screen4_7Inch, .screen5_8Inch:
+            return CGSize(width: 157, height: 210)
         default:
-            return CGSize(width: 191, height: 250)
+            return CGSize(width: 191, height: 230)
         }
         
     }
+   
 }
 
