@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5324F05F20E46C950054EEC4 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5324F05E20E46C950054EEC4 /* SettingVC.swift */; };
 		CD0B0FBC20E32BED004D1F4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B0FBB20E32BED004D1F4B /* AppDelegate.swift */; };
 		CD0B0FC320E32BED004D1F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0B0FC120E32BED004D1F4B /* Main.storyboard */; };
 		CD0B0FC520E32BED004D1F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0B0FC420E32BED004D1F4B /* Assets.xcassets */; };
@@ -17,12 +18,12 @@
 		CD0B0FD620E33E70004D1F4B /* MusicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B0FD520E33E70004D1F4B /* MusicCollectionViewController.swift */; };
 		CD0B0FDA20E341F1004D1F4B /* MusicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B0FD920E341F1004D1F4B /* MusicCollectionViewCell.swift */; };
 		CD0B0FDC20E34209004D1F4B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B0FDB20E34209004D1F4B /* Music.swift */; };
-		CD0B0FE020E34EA6004D1F4B /* ImagePageVieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0B0FDF20E34EA6004D1F4B /* ImagePageVieViewController.swift */; };
 		F4405ABB8C08577B98DA8D08 /* Pods_ui_tab_table_collection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E8405ED3446CC9743A08D3 /* Pods_ui_tab_table_collection.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		22E8405ED3446CC9743A08D3 /* Pods_ui_tab_table_collection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ui_tab_table_collection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5324F05E20E46C950054EEC4 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingVC.swift; path = "ui-tab-table-collection/Controller/SettingVC.swift"; sourceTree = SOURCE_ROOT; };
 		9ECC2E08B5707A7D45BFFF2D /* Pods-ui-tab-table-collection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ui-tab-table-collection.release.xcconfig"; path = "Pods/Target Support Files/Pods-ui-tab-table-collection/Pods-ui-tab-table-collection.release.xcconfig"; sourceTree = "<group>"; };
 		B6F3C5C0CD2DC126C6602DF8 /* Pods-ui-tab-table-collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ui-tab-table-collection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ui-tab-table-collection/Pods-ui-tab-table-collection.debug.xcconfig"; sourceTree = "<group>"; };
 		CD0B0FB820E32BED004D1F4B /* ui-tab-table-collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ui-tab-table-collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,7 +38,6 @@
 		CD0B0FD520E33E70004D1F4B /* MusicCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewController.swift; sourceTree = "<group>"; };
 		CD0B0FD920E341F1004D1F4B /* MusicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCollectionViewCell.swift; sourceTree = "<group>"; };
 		CD0B0FDB20E34209004D1F4B /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
-		CD0B0FDF20E34EA6004D1F4B /* ImagePageVieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePageVieViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 		CD0B0FDE20E3425D004D1F4B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5324F05E20E46C950054EEC4 /* SettingVC.swift */,
 				CD0B0FD520E33E70004D1F4B /* MusicCollectionViewController.swift */,
-				CD0B0FDF20E34EA6004D1F4B /* ImagePageVieViewController.swift */,
 				CD0B0FCF20E330F5004D1F4B /* LocatorTableViewController.swift */,
 			);
 			path = Controller;
@@ -243,10 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0B0FD220E33229004D1F4B /* LocatorTableViewCell.swift in Sources */,
+				5324F05F20E46C950054EEC4 /* SettingVC.swift in Sources */,
 				CD0B0FD420E335CF004D1F4B /* Locator.swift in Sources */,
 				CD0B0FD620E33E70004D1F4B /* MusicCollectionViewController.swift in Sources */,
 				CD0B0FBC20E32BED004D1F4B /* AppDelegate.swift in Sources */,
-				CD0B0FE020E34EA6004D1F4B /* ImagePageVieViewController.swift in Sources */,
 				CD0B0FDC20E34209004D1F4B /* Music.swift in Sources */,
 				CD0B0FDA20E341F1004D1F4B /* MusicCollectionViewCell.swift in Sources */,
 				CD0B0FD020E330F5004D1F4B /* LocatorTableViewController.swift in Sources */,

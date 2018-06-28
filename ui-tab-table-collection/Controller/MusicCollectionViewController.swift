@@ -46,16 +46,15 @@ class MusicCollectionViewController: UICollectionViewController {
 
 extension MusicCollectionViewController : UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        switch Device.size(){
-        case .screen4Inch:
-            return CGSize(width: 140, height: 210)
-        case .screen4_7Inch, .screen5_8Inch:
-            return CGSize(width: 157, height: 210)
-        default:
-            return CGSize(width: 191, height: 230)
-        }
-        
+        return CGSize(width: (view.frame.size.width-40)/2, height: view.frame.size.height/3)
     }
    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsetsMake(5, 5, 5, 5)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return CGFloat(5)
+    }
 }
 
